@@ -62,17 +62,11 @@ export default {
       }
       console.log(`${this.botChoice} ${this.userChoice} ${this.winner}`)
     },
-    translateResult(input){
-      let output = '';
-      return output;
-    }
+
   },
   computed:{
     botImage() {
       console.log('inside botImage()');
-      if(winner == null){
-        
-      }
       return '/images/Placeholder-Bot.png';
     },
     playerImage() {
